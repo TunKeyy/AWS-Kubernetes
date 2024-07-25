@@ -10,7 +10,7 @@ Using this content
 ```
 stream {
     upstream kubernetes {
-        server 54.255.251.66:6443 max_fails=3 fail_timeout=30s;
+        server 13.212.240.104:6443 max_fails=3 fail_timeout=30s;
     }
 server {
         listen 6443;
